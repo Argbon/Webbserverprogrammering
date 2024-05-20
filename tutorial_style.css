@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-image: url('background5.jpg');
+    background-size: repeat;
+}
+
+.container{
+    height: 100%;
+    width:150vh;
+    object-fit: scale-down;
+    background: white;
+    display: flex;
+}
+hr{
+    width: 200%;
+}
+.box-1{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+.box-2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#slicer-pic{
+    margin-top: 5%;
+    width: 90%;
+    height: 9%;
+}
+#tdmodels{
+    margin-left: 15%;
+    margin-top: 11%;
+    padding-bottom: 15%;
+}
+#threeDprints{
+    margin-left: 5%;
+    padding-bottom: 60%;
+}
+#felsokning-pic{
+    padding-top: 50%;
+}
+#meshmixer{
+    height: 4.4%;
+    Width: 90%;
+    margin-top: 15%;
+}
+#meshmixer:hover{
+    height: 500px;
+    width: 800px;
+    margin-right: 520px;
+    margin-top: -100px;
+}
+.meshmixer-6{
+    margin-bottom: 50px;
+}
+#meshmixerLine{
+    margin-top: 850px;
+}
+.Headline{
+    color: blue;  
+    margin-bottom: 2vh; 
+}
+.Headline-2{
+    color: blue;
+    margin-bottom: 2vh;
+    margin-top: 14%;
+    margin-right: 62%;
+    height: 40px;
+}
+.Headline-3{
+    color: blue;
+    margin-bottom: 2vh;
+    margin-right: 480px;
+    height: 40px;
+}
+.h2-left{
+    text-decoration: underline;
+}
+.h3-left{
+    margin-bottom: 2vh;
+}
+.h2-right{
+    text-decoration: underline;
+    margin-right: 20%;
+    width: 80%;
+}
+.h3-right{
+    margin-bottom: 2vh;
+    margin-right: 5%;
+}
+.ul-left{
+    margin-left: 3vh;
+}
+.ul-right{
+    margin-right: 72%;
+}
+.medm{
+    margin-top: 5%;
+}
+.btn{
+    height: 35px;
+    background: #456dff;
+    border: 0;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover{
+    opacity: 0.82;
+}
+.hbtn{
+    background: black;
+    color: white;
+}
+
+
+.nav{
+    background: transparent;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+.logo-gif{
+    margin-top: 20%;
+    width: 100px;
+    height: 100px;
+}
+.right-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-links a{
+    padding: 0 10px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100%;
+    margin-top: 20px;
+}
